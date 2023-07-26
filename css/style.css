@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header_top_block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    margin: 40px auto;
+}
+
+.header_top_block h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 45px;
+    font-weight: 400;
+    color: #0088A2;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.menu li {
+    list-style: none;
+    flex: 0 1 20%;
+}
+
+.menu_item {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background-color: #808080;
+    padding: 15px 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: #FFF;
+    transition: .4s;
+}
+
+.menu_item:hover {
+    background-color: #0088A2;
+}
+
+.quest_section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.quest_block {
+    flex: 0 1 30%;
+    position: relative;
+    transition: 0.6s;
+}
+
+.quest_block:hover {
+    transform: scale(1.05);
+}
+
+.quest_block img {
+    width: 100%;
+}
+
+.quest_block p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32.68px;
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    padding: 0 20px;
+    top: 45%;
+    left: 0;
+}
+
+.video_section {
+    margin-bottom: 100px;
+}
+
+.video_section h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 130.73px;
+    color: #0088A2;
+    text-align: center;
+    padding: 70px 0 30px 0;
+}
+
+.video_block {
+    position: relative;
+    padding: 0 20px;
+}
+
+.video {
+    width: 100%;
+    height: 90vh;
+}
+
+.button {
+    position: absolute;
+    top: 45%;
+    left: 45%;
+}
+
+.question_top {
+    display: flex;
+    position: relative;
+    padding: 0 80px;
+    height: 70vh;
+    margin-bottom: 100px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.question_top_img:nth-child(even) {
+    top: 40px;
+}
+
+.question_top_img:nth-child(1) {
+    left: 0%;
+}
+
+.question_top_img:nth-child(2) {
+    left: 18%;
+}
+
+.question_top_img:nth-child(3) {
+    left: 36%;
+}
+
+.question_top_img:nth-child(4) {
+    left: 54%;
+}
+
+.question_top_img:nth-child(5) {
+    left: 72%;
+}
+
+.question_top_img {
+    display: block;
+    position: absolute;
+
+}
+
+.info_h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 130.73px;
+    color: #0088A2;
+    text-align: center;
+    padding: 70px 0 30px 0;
+
+}
+
+.info_p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 46px;
+    color: #707070;
+    text-align: center;
+    padding: 70px 0 30px 0;
+    width: 60%;
+    margin: 0 auto;
+}
+
+
+.info_h2_download {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 130.73px;
+    color: #0088A2;
+    text-align: center;
+    padding: 70px 0 30px 0;
+
+}
+
+.img_android_shtrih {
+    display: flex;
+    justify-content: space-around;
+}
+
+.p_download {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    padding: 70px 0 30px 0;
+    width: 75%;
+    color: #707070;
+    text-decoration: solid;
+}
+
+.p_info_download {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer_fon {
+    background-color: #0088A2;
+    padding-bottom: 80px;
+}
+
+.SOME {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 75px;
+    text-align: center;
+    padding: 70px 0 50px 0;
+    color: #FFF;
+}
+
+.img_programs {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 700px;
+    padding: 0 0 100px 0;
+}
+
+.info_footer_text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 55px;
+    font-weight: 300;
+    line-height: 55px;
+    color: #FDFDFD;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.info_footer {
+    margin: 0 50px;
+    flex: 0 1 30%;
+    text-align: center;
+}
+
+.info_bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info_bottom p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 35px;
+    color: #FFF;
+}
